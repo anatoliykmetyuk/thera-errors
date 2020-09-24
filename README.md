@@ -1,5 +1,5 @@
 # Usage
-To run the example files, first install Ammonite. To run e.g. `e1.sc`, use the following command:
+To run the example files, first install [Ammonite](https://ammonite.io/). To run e.g. `e1.sc`, use the following command:
 
 `amm e1.sc`
 
@@ -18,7 +18,7 @@ To run the example files, first install Ammonite. To run e.g. `e1.sc`, use the f
 # Desired output
 Error messages must be of the format similar to the Scala's error messages. The `*.template` format in the mock-ups below is a dummy file name. The idea is that if Thera gets the template from an external text file, that file's name should be used. In the examples of this repo, all of the templates come from Strings – hence we need to come up with an intelligible way to display that fact.
 
-One option may be to display the file name of the Scala file they come from, and display the line and colon number relative to that Scala file. You can use Li Haoyi's `sourcecode` library to obtain metadata on the Scala source being executed.
+One option may be to display the file name of the Scala file they come from, and display the line and colon number relative to that Scala file. You can use Li Haoyi's [`sourcecode`](https://github.com/lihaoyi/sourcecode) library to obtain metadata on the Scala source being executed.
 
 Error mock-ups:
 ```
